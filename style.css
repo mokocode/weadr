@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.location {
+    height: 30vh;
+    width: 30vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    color: white;
+}
+
+.windDegree {
+    justify-content: center;
+    display: flex;
+}
+
+.windspeed {
+    justify-content: center;
+    display: flex;
+    font-size: x-small;
+
+}
+
+.temp-descreption {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.windspeed {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    
+}
+
+.temp-degree {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    color: blanchedalmond;
+    font-size: x-large;
+    justify-content: space-around;
+        
+}
